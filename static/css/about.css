@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
 
 
-h3 {
+h2 {
   font-family: 'Noto Serif Old Uyghur', serif;
   font-weight: 700;
   font-style: italic;
   letter-spacing: 1px;
   color: black;
+  margin-left: -50px;
 }
 
 a {
@@ -16,12 +21,6 @@ a {
 a:hover {
   font-weight: 500;
   letter-spacing: 2px;
-}
-
-main {
-  /* margin-left: 200px;
-  margin-right: 200px; */
-  /* margin-top: 20px; */
 }
 
 .container-recipe {
@@ -46,4 +45,25 @@ div.nutri-section {
 .nutri-box p {
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.method-section {
+  padding-top: 40px;
+  padding-left: 15%;
+  /* padding-right: 5%; */
+}
+
+.method {
+  display: flex;
+  margin-left: 100px;
+}
+
+.method-li li {
+  margin-bottom: 20px;
+}
+
+
+
+.food-png {
+  width: 60%;
 }
